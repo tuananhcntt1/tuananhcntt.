@@ -112,19 +112,22 @@ CERTIFICATIONS = [
         'year': '2024',
         'title': 'Networking Basics',
         'issuer': 'Cisco Networking Academy',
-        'description': 'Foundational networking concepts, architecture, and protocols'
+        'description': 'Foundational networking concepts, architecture, and protocols',
+        'image': 'networking-basics.jpg'
     },
     {
         'year': '2024',
         'title': 'JavaScript Essentials 1',
         'issuer': 'Cisco Networking Academy',
-        'description': 'Core JavaScript syntax, variables, and control structures'
+        'description': 'Core JavaScript syntax, variables, and control structures',
+        'image': 'javascript-essentials-1.jpg'
     },
     {
         'year': '2024',
         'title': 'JavaScript Essentials 2',
         'issuer': 'Cisco Networking Academy',
-        'description': 'Advanced JavaScript, objects, functions, and DOM manipulation'
+        'description': 'Advanced JavaScript, objects, functions, and DOM manipulation',
+        'image': 'javascript-essentials-2.jpg'
     },
     {
         'year': '2024',
@@ -156,6 +159,7 @@ CERTIFICATIONS = [
         'issuer': 'DataCamp',
         'description': 'Numpy, Pandas, Matplotlib Basics'
     }
+    
 ]
 
 

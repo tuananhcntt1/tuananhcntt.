@@ -60,6 +60,12 @@
                 <div class="timeline-content">
                     <div class="timeline-year">{{ cert.year }}</div>
                     <h3 class="timeline-title">{{ cert.title }}</h3>
+                    <!-- Thêm hình ảnh ở đây -->
+{% if cert.image %}
+<img src="{{ url_for('static', filename='assets/images/' + cert.image) }}" 
+     alt="Hình ảnh chứng chỉ {{ cert.title }}" 
+     class="timeline-image">
+{% endif %}
                     <p class="timeline-issuer">Từ: <strong>{{ cert.issuer }}</strong></p>
                     <p class="timeline-description">{{ cert.description }}</p>
                 </div>
